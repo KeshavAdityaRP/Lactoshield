@@ -10,6 +10,12 @@ h1{
 	text-align: center;
 }
 
+h3{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;	
+}
+
 a{
     font-size: large;
 }
@@ -154,3 +160,31 @@ img{
 .cardset1{
     width: 100%;
 }
+
+/*Contact Section*/
+
+#map{
+	width: 100%;
+	height: 500px;
+	margin-top: 3%;
+}
+
+#mapp{
+	width: 100%;
+	height: 500px;
+	margin-top: 3%;
+}
+
+.contactinfo{
+	text-align: center;
+	top: 5px;
+}
+
+.contactinfo1{
+	text-align: center;
+
+/*
+.socialicon{
+	color: #333333;
+}
+*/
