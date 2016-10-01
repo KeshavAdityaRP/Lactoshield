@@ -4,18 +4,26 @@
 	<title></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/HomeStyle.css" rel="stylesheet">   	
+    <link href="css/HomeStyle.css" rel="stylesheet">
+    <script src="js/tether.min.js"></script>
+    <script src="js/tether.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>       	
 </head>
 <body>
 <header>
 <!-- Section : Navigation Bar -->
 <section id=NavigationBar>
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
+    <div class="container-fluid Navbarcenter">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -33,13 +41,14 @@
         -->    
             <ul class="nav navbar-nav">
                 
-                <li><a href="#"><span><i class="fa fa-home" aria-hidden="true"></i></span> Home</a></li><!-- class="active" -->
+                <!--<li><a href="#"><span><i class="fa fa-home" aria-hidden="true"></i></span> Home</a></li>--><!-- class="active" -->
                 
                 <li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="fa fa-briefcase" aria-hidden="true"></i></span> Project<b class="caret"></b></a>
                     <ul class="dropdown-menu multi-level">
                         <li><a href="#">Overview</a></li>
                         <li><a href="#">Anti-Microbial Peptide</a></li>
+                        <!--
                         <li class="dropdown-submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Temperature sensitive activation</a>
                             <ul class="dropdown-menu">
@@ -47,6 +56,8 @@
                                 <li><a href="#">LAMBDA PR</a></li>
                             </ul>    
                         </li>
+                        -->
+                        <li><a href="#">Temperature sensitive activation</a></li>
                         <li><a href="#">Sporulation</a></li>
                         <li><a href="#">Delivery System</a></li>
                         <li><a href="#">Notebook</a></li>
@@ -129,9 +140,22 @@
 
 <!-- Section : Cover Page -->
 <section id=CoverPage>
-	
+<div class="jumbotron">
+<!--
+  <div class="w3-display-middle">
+  <div class="covertext">
+  <h1 class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity"> CALIBRATIONS </h1>
+  <h2 class="w3-center w3-padding-xlarge w3-black w3-small w3-wide w3-animate-opacity"> OCTOBER 15th, 2016</h2>
+  </div>
+  <a class="movedownicon" href="#about"><i class="fa fa-angle-double-down animated wow bounce" aria-hidden="true" data-wow-duration="1s" data-wow-iteration="9999"></i></a>
+</div>
+-->  
+</div>	
 </section>
 <!-- /CoverPage -->
+
+<!-- Section : Home -->
+<!-- /Home -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
