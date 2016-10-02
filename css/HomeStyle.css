@@ -10,6 +10,12 @@ h1{
 	text-align: center;
 }
 
+h2{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
 h3{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight: bold;
@@ -41,6 +47,7 @@ hr{
 
 img{
 	max-width: 100%;
+	margin: auto;
 }
 
 .container{
@@ -49,6 +56,22 @@ img{
 
 .row{
 	padding-top: 3%;
+}
+
+.parajustify{
+    text-align: justify;
+}
+
+.points li{
+	font-size: large;
+	line-height: 3em;
+	text-align: justify;
+	color: #000000;
+	list-style-type: none;
+}
+
+.imagecenter{
+	text-align: center;
 }
 
 /* Default Navigation Bar */
@@ -179,6 +202,12 @@ img{
 
 
 /* PROJECT */
+
+/* Overview */
+
+/* Antimicrobial Peptides */
+
+/* Temperature Sensitive Activation */
 
 
 

@@ -46,7 +46,7 @@
                 <li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="fa fa-briefcase" aria-hidden="true"></i></span> Project<b class="caret"></b></a>
                     <ul class="dropdown-menu multi-level">
-                        <li><a href="#projectoverview">Overview</a></li>
+                        <li><a href="ProjectOverview.html">Overview</a></li>
                         <li><a href="ProjectAntimicrobialPeptides.html">Anti-Microbial Peptide</a></li>
                         <!--
                         <li class="dropdown-submenu">
@@ -57,7 +57,7 @@
                             </ul>    
                         </li>
                         -->
-                        <li><a href="ProjectTemperature.html">Temperature sensitive activation</a></li>
+                        <li><a href="#temperature">Temperature sensitive activation</a></li>
                         <li><a href="#">Sporulation</a></li>
                         <li><a href="ProjectDelivery.html">Delivery System</a></li>
                         <li><a href="#">Notebook</a></li>
@@ -134,68 +134,80 @@
 <!-- /NavigationBar -->
 </header>
 <body>
-<!-- Section Project Overview -->
-<section id="projectoverview">
+<!-- Section : Temperature Sensitive Activation -->
+<section id="temperature">
 <div class="container">
 <div class="row">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-<h1>Overview</h1>
+<h1>Temperature Sensitive Activation</h1>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p>
+In most south east Asian countries it is an indispensable practice to boil milk before consuming it. Given that we don't expect the half-life of our anti-microbial peptides to be more than a few hours , our system must be capable of producing them only when the consumer deems necessary. Hence we decided to invoke a checkpoint in the process which precedes milk consumption i.e boiling of milk using temperature sensitive parts such as A lambda promoter with a cI mutation and RNA thermometer.   
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h2>Lamda PR Promotor</h2>
 </div>
 </div>
 <hr>
 <div class="row">
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <p class="parajustify">
- According to a survey, 77% of milk spoilage is due to Gram Positive Bacteria. Losses during delivery of milk to markets are mainly in the form of bacterial spoilage due to lack of cooling facilities and long distances to collection centres. The usable life of milk is extended for several days through techniques such as cooling or fermentation. Post pasteurization contamination of milk, particularly with Pseudomonas and some Gram-positive psychrophiles does occur.(Seema Rawat,2015).   
+λ pR is a consituive promoter found in λ phage. It is one of the promoters that initiates the transcripion of proteins that play a role in the lytic phase of λ phage. It controls the transcripion of cell-lysisproteins, head and tail proteins. The biobrick used here contains this promoter and a mutated cI repressor protein that is the real reason forthe temperature sensitvity.  
 </p>
 </div>
-<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 imagecenter">
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+<p class="parajustify">
+Below 30⁰C, the cI repressor protein is active and represses the acivity of the λ pR promoter. But above 35⁰C, the acivity of the repressor starts decreasing, and at 42⁰C, completely disappears. This allows enhanced transcription of the genes downstream of the λ pR promoter.
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 imagecenter">
 <img src="images/1.png">
 </div>
 </div>
 <div class="row">
-<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 imagecenter">
- <img  src="images/2.png"> 
-</div>
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <p class="parajustify">
-We have developed a novel system that produces anti microbial peptides to prolong the shelf life of milk by preventing bacterial contamination. Studies which were conducted by (Wenzel et al) on a hexapeptide containing only arginine and tryptophan showed : 1. Their peptide was effective against Gram-positive bacteria including Methicillin Resistant Staphylococcus aureus.  
-</p>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-<ul class="points">
-    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Their peptide was effective against Gram-positive bacteria including Methicillin Resistant Staphylococcus aureus. </li>
-    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;It was moderately effective against Gram-negative bacteria. </li>
-    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;It had low haemolytic activity and very low toxicity towards human cells.</li>
-    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;Their peptide attacked the bacterial cell membrane by integrating itself into the membrane and causes membrane depolarization.<a href=""> Antimicrobial Peptides</a>
-    </li>
-</ul>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-<p class="parajustify">
-Lactoshield is designed to produce the AMPs upon activation by heat, which is practical considering that all Indian households boil the milk once before consumption. For regulating gene expression through an increase/decrease in temperature, several options can be explored, a couple of which are available in the iGEM DNA distribution λkit.    
+The temperature sensitive lamda cI repressor protein has a cI857 mutation that results in denaturation of the repressor when the temperature is raised from 30 to 42°C, thereby allowing lambda promoter expression.  
 </p>
 </div>
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <p class="parajustify">
-A pR promoter with a mutant cI inhibits gene expression below 42 0C. Another part, an RNA thermometer isolated from Bradyrhizobium japonicum can be used for temperature sensitive post-transcriptional regulation. This part too, initiates translation at 42 0C.<a href="">Temperature Sensitive Activation</a>    
-</p >
+The repressor normally negatively regulates the expression of genes from the bacteriophage lambda pL and pR promoters. This repressive action is strongest at 30°C. cI2 
+</p>
 </div>
 </div>
 <div class="row">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 <p>
-For delivering the peptide the team took inspiration from 2012 iGEM Team Groningen. <a href="">Delivery System</a>     
+However, when the temperature is raised, typically to 42°C, the functionality of the protein is lost and the cI repressor is no longer able to bind to the operators on its promoter. Therefore, lambda promoter expression increases.     
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h2>RNA Thermometer</h2>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p>
+RNA-based temperature sensing is common in bacteria that live in fluctuating environments. Most naturally-occurring RNA thermometers are heat-inducible, have long sequences, and function by sequestering the ribosome binding site in a hairpin structure at lower temperatures.  Most naturally-occurring RNA thermometers are heat-inducible, and they function by sequestering the ribosome binding site (RBS) in a hairpin structure at low temperatures and exposing the RBS upon hairpin destabilization at high temperatures. On such example of such an RNA thermosmeter is a regulatory element known as ROSE (Repression Of heat-Shock gene Expression) (Naberhaus.F et al). The predicted structure of the 5′ UTR sequesters not only the Shine-Dalgarno (SD) sequence but also the start codon at low temperatures. 
 </p>
 </div>
 </div>
 </div>
 </section>
-<!-- /Project Overview -->
+<!-- /Temperature Sensitive Activation -->
 <!-- References -->
 <section id="projectreferences">
 <div class="container">
