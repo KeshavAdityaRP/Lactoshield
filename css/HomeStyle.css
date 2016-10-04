@@ -27,6 +27,7 @@ a{
 }
 
 p{  
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: large;
 	line-height: 2em;
 	text-align: center;
@@ -196,6 +197,10 @@ img{
 	background-color: #ffffff;
 }
 
+.illustration{
+	padding: 1%;
+}
+
 .cardset1{
     width: 100%;
 }
@@ -209,6 +214,12 @@ img{
 
 /* Temperature Sensitive Activation */
 
+/* HUMAN PRACTICES */
 
+/* Urban Analysis */
+
+/* Rural Analysis */
+
+/*  Colleges */
 
 
