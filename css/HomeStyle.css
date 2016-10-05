@@ -8,18 +8,21 @@ h1{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight: bold;
 	text-align: center;
+	color: #000000;
 }
 
 h2{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight: bold;
 	text-align: center;
+	color: #000000;
 }
 
 h3{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight: bold;
-	text-align: center;	
+	text-align: center;
+	color: #000000;	
 }
 
 a{
@@ -110,6 +113,8 @@ img{
     display: block;
     content: " ";
     float: right;
+    position: relative; /* move the arrow that points to the sub-sub menu */
+    right: 6%; /* move the arrow that points to the sub-sub menu */
     width: 0;
     height: 0;
     border-color: transparent;
