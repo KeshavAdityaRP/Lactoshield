@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Lactoshield - SVCE_CHENNAI</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/HomeStyle.css" rel="stylesheet">
+    <script src="js/tether.min.js"></script>
+    <script src="js/tether.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>       	
+</head>
+<body>
+<header>
+<!-- Section : Navigation Bar -->
+<section id=NavigationBar>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid navbarcenter">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="Home.html">LACTOSHIELD</a>
+        </div>
+        <div class="collapse navbar-collapse">
+        <!--
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://github.com/fontenele/bootstrap-navbar-dropdowns" target="_blank">GitHub Project</a></li>
+            </ul>
+        -->    
+            <ul class="nav navbar-nav">
+                
+                <!--<li><a href="#"><span><i class="fa fa-home" aria-hidden="true"></i></span> Home</a></li>--><!-- class="active" -->
+                
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="fa fa-briefcase" aria-hidden="true"></i></span> Project<b class="caret"></b></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="ProjectOverview.html">Overview</a></li>
+                        <li><a href="ProjectAntimicrobialPeptides.html">Anti-Microbial Peptide</a></li>
+                        <!--
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Temperature sensitive activation</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">RNA THERMOMETER</a></li>
+                                <li><a href="#">LAMBDA PR</a></li>
+                            </ul>    
+                        </li>
+                        -->
+                        <li><a href="ProjectTemperature.html">Temperature sensitive activation</a></li>
+                        <li><a href="#">Sporulation</a></li>
+                        <li><a href="ProjectDelivery.html">Delivery System</a></li>
+                        <li><a href="ProjectInterlabs.html">Interlab Study</a></li>
+                        <li><a href="#notebook">Notebook</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="fa fa-book" aria-hidden="true"></i></span> Human Practices<b class="caret"></b></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="#">Overview</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Analysis</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="HpUrbanAnalysis.html">Urban</a></li>
+                                <li><a href="HpRuralAnalysis.html">Rural</a></li>
+                            </ul>    
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Education</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="HpSchools.html">Schools</a></li>
+                                <li><a href="HpColleges.html">College</a></li>
+                                <li><a href="HpWorkshops.html">Workshops</a></li>
+                            </ul>    
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Engagement</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Village Booth</a></li>
+                                <li><a href="#">Urban Super Market</a></li>
+                                <li><a href="HpSymposium.html">Symposium</a></li>
+                            </ul>    
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Integrated Human Practices &nbsp;</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Scholar</a></li>
+                                <li><a href="#">Industries</a></li>
+                                <li><a href="#">Guidelines</a></li>
+                                <li><a href="#">Commercialization</a></li>
+                            </ul>    
+                        </li>
+                        <li><a href="#">Entrepreunership</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Analysis</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Reduction in cost</a></li>
+                                <li><a href="#">Support from Industries</a></li>
+                            </ul>    
+                        </li>                        
+                    </ul>
+                </li>                        
+
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="fa fa-cogs" aria-hidden="true"></i></span> Team<b class="caret"></b></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="AttributionsTeamMembers.html">Members</a></li>
+                        <li><a href="#attributions">Attributions</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="fa fa-users" aria-hidden="true"></i></span> Collaboration<b class="caret"></b></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="CollaborationMeetUp.html">Indian iGEM meet up</a></li>
+                        <li><a href="#">Surveys</a></li>
+                        <li><a href="#">Lab</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="Safety.html"><span><i class="fa fa-plus" aria-hidden="true"></i></span> Safety</a></li>
+
+                <li><a href="#"><span><i class="fa fa-check" aria-hidden="true"></i></span> Results</a></li>
+
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+</section>
+<!-- /NavigationBar -->
+</header>
+<body>
+<!-- Section : Notebook -->
+<section id="notebook">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h1>Notebooks</h1>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h2>January 2016</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 1: 4th jan to 10th jan</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">Selections were done to recruit team members of iGEM 2k16.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 2: 11th jan to 17th jan</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">Organized our first team meet up and the freshers were addressed about iGEM competition and its values.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 3: 18th jan to 24th jan</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">The team Brainstormed ideas of various disciplines and raised funds for the competition.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 4: 25th jan to 31st jan</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">Decanting work was done and the lab was setup with necessary chemicals and equipments.</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h2>February to April 2016</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">Brainstorming and fund raising</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h2>May 2016</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 1: 2nd may to 8th may</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;The team was divided to do human practices and lab work. </li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;<strong>Human practices team:</strong><br>  
+Prepared questionnaires and finalized Google forms for urban and rural population.
+<br>
+Conducted a survey in a village named kunthambakkam.
+ </li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;<strong>Lab team:</strong><br>
+Mother plate of E.coli DH5α was prepared.
+<br>
+Antibiotic stocks and buffers required for molecular biology works were prepared.
+<br>
+Protocol optimization for competent cells was carried out.
+</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 2: 9th may to 15th may</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;<strong>Human practices team:</strong>
+    <br>
+Questionnaire was prepared for biotech students.
+<br>
+A survey was done among urban people and educated them genetically modified organisms.
+ </li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;<strong>Lab team:</strong>
+<p class="parajustify">
+The transformation didn’t yield a fruitful result first time due to handling errors.
+<br>
+The competent cells and transformation was repeated using both cacl2 protocol and CCMB80 buffer protocol for the following parts:    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Lambda PR promoter</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; RNA thermometer</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Strong promoter+ strong RBS</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Double terminator</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Cj blue</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ts purple</li>
+</ul>
+<p class="parajustify">
+Colonies were observed in control plates of cacl2 protocol.
+<br>
+Trouble shooting was done and the procedure was repeated. It was found that visible transformants were seen using cacl2 protocol.
+<br>
+Plasmid isolation and colony PCR was done to confirm the transformants.
+<br>
+Staining was done to check contamination in the transformed colonies. It was found that it was contaminated by cocci .
+<br>
+PCR  amplification of ts purple and lambda pr promoter was done. 
+</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Mid may to mid June:</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">University exams hence no work was carried out.</p>
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h2>June 2016</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 3: 20th june to 26th June</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;The team was divided to do human practices and lab work. </li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;<strong>Human practices team:</strong><br>  
+Created awareness about genetically modified organisms (GMO’s) for various village people.
+<br>
+A list of college and schools was made to educate students and required processes were carried out.
+<br>
+We approached various diary industries requesting appointment for a presentation about our project.
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;<strong>Lab team:</strong><br>
+Transformation was carried out for ligated lambda pr product.
+<br>
+Again witnessed problem in transformation due to contamination. Troubleshooting was done to check for contamination during competent cell preparation by staining buffers.
+<br>
+Checked for contamination in DH5α culture by streaking them in mackonkey plates. There was no sign of contaminants in the plate.
+<br>
+Freshly prepared new cacl2 and CCMB80 buffers and competent cell efficiency was tested. It was found to be efficient at 20 pg and 50 pg.
+</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 4: 27th june to 3rd July</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;<strong>Human practices team:</strong>
+    <br>
+Contacted teams on twitter to talk about collaboration. Got positive response from 7 teams.
+<br>
+Ethical survey form was prepared.
+<br>
+A google form for world survey was prepared.
+<br>
+Visited pasky diary industry and opinion of industry people was noted.
+<br>
+A skype call was made to purdue industry and discussed about collaboration.
+ </li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;<strong>Lab team:</strong>
+<p class="parajustify">
+PCR amplification of RNA thermometer was done.
+<br>
+Plasmid isolation of rfp transformants was done and observed a positive result.
+<br>
+Transformation was carried out for the following parts.
+<br>
+The competent cells and transformation was repeated using both cacl2 protocol and CCMB80 buffer protocol for the following parts:    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; GFP</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Double terminator</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Anderson strong promoter</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Cj blue</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; RNA thermometer</li>
+</ul>
+<p class="parajustify">
+Pcr amplification of lambda pr promoter and ts purple was carried out and observed negative result.
+<br>
+Transformation of lambda pr promoter and ts purple was carried out. 
+</p>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h2>July 2016</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 1: 4th july to 10th July</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;<strong>Lab team:</strong><br>
+<p class="parajustify">
+Plasmid isolation of ligated  lambda pr promoter along with ts purple was done with internal and positive control. Visible band was observed only for rfp plasmid.
+<br>
+Plasmid isolation of cj blue, Gfp, RNA thermometer and RFP  was carried out and size confirmation was done.
+<br>
+Pcr amplification of Gfp and Cj blue was done.
+</p>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 2: 11th july to 17th July</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;<strong>Lab team:</strong><br>
+<p class="parajustify">
+Pcr amplification was found to be positive for phusion polymerase while showed negative result for taq polymerase.
+<br>
+Restriction of Cj, rna and rfp was done and size confirmation was carried out.
+<br>
+RNA+CJ and RNA+GFP were kept for ligation and observed negative results. It was kept for overnight incubation but the ligation didn’t happen.
+</p>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 3: 18th july to 24th July</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;<strong>Lab team:</strong><br>
+<p class="parajustify">
+Restriction of RNA at E and S site didn’t happen due to buffer incompatibility.
+<br>
+To clear the doubt on restriction enzymes each enzymes were individually tested by linearising GFP plasmid. It was concluded that restriction enzymes works well.
+<br>
+Tried concentrating tango buffer from 1X to 2X and restriction was carried out resulting in negative result.
+<br>
+Finally used NEB 2.1 buffer for restriction at E and S Sites. It was observed that restriction did came using this common buffer.
+</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 4: 25th july to 31st July</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;<strong>Lab team:</strong><br>
+<p class="parajustify">
+G blocks with AMP construct was checked by doing PCR Amplification and distinct band was found by using 30 cycles in amplification.
+Competent cells stock was tested for efficiency but in vain.
+<br>
+AMP cassette was restricted at X and P site and ligated with chloremphenicol backbone. The size confirmation wasn’t proper.
+RNA+CJ blue plasmid was isolated from the transformed colonies .
+<br>
+Protocol was optimized for ligation using restricted GFP plasmid at E and P site at varying time periods.( 10 min, 45 min, 2hour, and overnight). It was found that ligation happened at 10 minute.
+</p>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h2>August 2016</h2>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 1: 1st - 7th August</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Lab</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Transformation of parts on Cam+ plates
+    <br>      K314103 (1638 bp) -  Lac inducible cassette 
+    <br>      K608351 (948 bp)  -  Lambda pr promoter 
+    <br>      K1357008 (845 bp)  -  tspurple 
+    <br>      Positive control  -  RFP
+    <br>No growth was observed in the plates except for the negative control.
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Plasmid isolation of ligated plasmid -  RNA+ Cj+ BB(K) 
+On performing AGE,  a single distinct band of size greater than 10kb was observed. 
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; To confirm the size of the above plasmid, the plasmid was linearised by single digestion (E. coRI) but couldn't observe the right size for the plasmid.</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Restriction digestion of RNA Thermometer and Cj blue performed followed by a one hour and also a 4 hour ligation so as to optimize the ligation protocol. 
+Didn't get the size required on performing AGE. 
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Optimisation of restriction digestion using Cj blue performed.</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Preparation of subtilis seed stock </li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; G blocks order placed</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; PCR of RNA Thermometer - correct result observed</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; PCR of G block - WB1 and Lac Cassette performed</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Lambda pr + tspurple + BB(K)  Plasmid transformed on Kan+ plates. Colonies were observed on the plate. However,  similar ones were observed on the control plate too hence it was concluded to be contamination</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Streaking of Subtilis on McKonecky Agar Plate to confirm its identity</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Restriction of PCR products - RNA Thermometer and Cj blue followed by a 10 minute ligation in 1:1 ratio.</li>    
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Human Practices</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; HP Presentation at Anna University,  Chennai</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Industrial Visit to Kwality Food Industry</li>
+</ul>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 2 : 8th - 15th August</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Lab</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of RNA Thermometer + Cj blue with K(BB) in 1:2 ratio. Faint band was observed at 3 kb. The obtained product was transformed . No transformants growth was observed and cell growth was observed in the control plate
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; PCR of Cj blue and Lac cassette was performed 
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Restriction digestion of RNA Thermometer and Cj blue parts</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of restricted parts – RNA Thermometer, Cj blue and BB(C) Obtained product was transformed. No transformants observed on the plates except for contamination
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; PCR of restricted Lac cassette part</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Restriction of WB1 and ligation of restricted Lac cassette with WB1. Band wasn’t observed on performing Age </li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Human Practices</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Compilation of milk industries reports</li>
+</ul>
+</div>
+</div>
+
+
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 3: 15th - 22nd August</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Lab</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Restriction of WB1, Lac cassette and d.Terminator parts
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Restriction of RNA Thermometer, Cj blue and d.Terminator parts 
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of RNA Thermometer and Cj restricted parts in 1:1 ratio. No ligation has occurred.</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of RNA therm., Cj blue and BB(C). Band was observed near 3kb for 10 minutes ligation and near 800bp for 1 hr ligation.
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of Lac cassette and WB1 performed twice . No band observed.</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Human Practices</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Had talks with few Food Scientists regarding our project.</li>
+</ul>
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 4: 23rd  -31st August</h3>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Lab</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Antibiotic broth dilution tests were performed to check the activity of the antibiotics. Growth of cells was observed even in the highest conc. of antibiotic containing test tube. Conclude that the antibiotic being used so far has lost its activity.
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Triple iron sugar test was performed to confirm the identity of B.subtilis culture we had. 
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Sporulation studies beginned . Starting with streaking of B.subtilis on AK Agar plate . Spores were observed on visualizing the cells on compound microscope after staining.</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of ligated Lac+WB1 with d.Terminator  for 10 minutes was performed. No band observed.  
+</li>   
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Restriction digestion of Lac cassette and WB1 parts</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of the above restricted parts in 1:1 ratio. A smear was observed on the gel. </li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of RNA, Cj and Cam BB in 1:3 ratio for 10 minutes. Band obtained near 3kb</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; PCR of ligated product (RNA+ Cj+ Cam(BB))</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Transformation of ligated products – Lac+WB1+d.Ter+Cam BB and RNA+Cj+Cam BB. Positive results observed.</li>    
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Human Practices</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Collaboration with UPO Sevilla  Team.  GMO survey was shared among the Indian population and a report was made based on the results.</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Industrial Visit to Kwality Food Industry</li>
+</ul>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h2>July 2016</h2>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 1: 1st -7th September</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Lab</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; PCR and restriction digestion WB2 gblocks
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of Lac and WB2 in 1:2 ratio 
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; PCR of Anderson Promoter part using the Master Mix of NEB Kit</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Plasmid Isolation from the transformed plate of RNA+Cj+Cam BB. A light band observed around 3kb and a high intensity band around 2 kb observed. Couldn’t clearly conclude the presence of the plasmid
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; PCR of the above plasmid performed</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Human Practices</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Compilation of school reports and village reports</li>
+</ul>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 2: 8th -14th September</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Lab</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Transformation of Lac+WB1+Cam BB and Lac+WB2+Cam BB. No transformants growth observed. No significant growth of transformants
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Linearisation of RNA+Cj+Cam BB by single digestion . Band observed at 2kb 
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of RNA+Cj with Cam BB and d.Ter. Band observed between 2kb and 3kb size.</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of Lac, WB2 and Cam BB</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Transformation of the above  2 ligated products . Control plate had contamination
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; PCR of the ligated product – RNA+Cj+d.Ter+Cam BB</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Restriction Digestion of WB2, GFP and d.Terminator parts</li>
+    
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Human Practices</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Spread the knowledge of SynBio and educated students about our project in the National Workshop on Genetic Engineering organized by SVCE, Chennai</li>
+</ul>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 3: 15th -22nd September</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Lab</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of RNA+Cj with d.Terminator and Lac with WB2
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; PCR of Gblocks – Lambda PR construct 
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Restriction digestion of d.Terminator part</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of restricted Gblock Lambda PR and d.Terminator in 1:3 ratios.
+</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Human Practices</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Lab troubleshooting form drafted and shared with other IGEM Teams via Twitter and Facebook</li>
+</ul>
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3 class="attributesubheadings">Week 4: 23rd -30th September</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Lab</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Restriction of Lambda PR PCR product
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Ligation of the restricted Lambda PR with Cam BB. No visible band observed 
+</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; PCR of Lambda PR g-blocks</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Restriction Digestion of Lambda PR PCR product and Cam BB
+</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="parajustify">
+<strong>Human Practices</strong>    
+</p>
+<ul class="points">
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; Project Presentation at Sri Ramachandra University, Chennai</li>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp; iGEM Stall at Omics’s 16, SVCE</li>
+</ul>
+</div>
+</div>
+
+</div>
+</section>
+<!-- /Notebook -->
+<!-- References -->
+<section id="projectreferences">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h2>References</h2>
+</div>
+</div>
+<hr>
+</div>
+</section>
+<!-- /References -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--<script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyD0gy9V7kPvBs7jhXWKDJ5bt9MnxaH09Aw"></script>-->
+</body>
+</html>
