@@ -27,6 +27,7 @@ h3{
 
 a{
     font-size: large;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 p{  
@@ -39,19 +40,46 @@ p{
 
 hr{
 	width: 50%;
-	color: blue;
+	color: #686968;
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em; 
     margin-left: auto;
     margin-right: auto;
-    border-style: inset;
+    border-style: inset; 
     border-width: 1px;
 }
+
+
+/* #8c8c8c */
+.mainline{ 
+    width: 50%;	
+    padding: 0;
+    border: none; 
+    border-top: medium double #686968; 
+    color: #686968; 
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;  
+} 
+.mainline:after{ 
+  content: "§"; 
+  display: inline-block; 
+  position: relative; 
+  top: -0.7em; 
+  font-size: 1.5em; 
+  padding: 0 0.25em; 
+  background: #fff; 
+}
+
 
 img{
 	max-width: 100%;
 	margin: auto;
+}
+
+footer{
+
 }
 
 .container{
@@ -80,17 +108,17 @@ img{
 
 /* Default Navigation Bar */
 
-.dropdown-menu{
+#NavigationBar .dropdown-menu{
     border-radius: 0px;
     -webkit-box-shadow: none;
     box-shadow: none
 }
 
-.dropdown-submenu {
+#NavigationBar .dropdown-submenu {
     position: initial;
 }
 
-.dropdown-submenu>.dropdown-menu {
+#NavigationBar .dropdown-submenu>.dropdown-menu {
   top: 0;
   left: 100%;
   margin-top: -1px;
@@ -100,16 +128,16 @@ img{
   border-radius: 0;
   min-height: 101%;
   color: #648799;
-  background-color: #222222;
+  background-color: #add6ef;
   border-color: transparent;
   border-left-width: 1px;
 }
 
-.dropdown-submenu:hover>.dropdown-menu {
+#NavigationBar .dropdown-submenu:hover>.dropdown-menu {
     display: block;
 }
 
-.dropdown-submenu>a:after {
+#NavigationBar .dropdown-submenu>a:after {
     display: block;
     content: " ";
     float: right;
@@ -125,15 +153,15 @@ img{
     margin-right: -10px;
 }
 
-.dropdown-submenu:hover>a:after {
+#NavigationBar .dropdown-submenu:hover>a:after {
     border-left-color: #fff;
 }
 
-.dropdown-submenu.pull-left {
+#NavigationBar .dropdown-submenu.pull-left {
     float: none;
 }
 
-.dropdown-submenu.pull-left>.dropdown-menu {
+#NavigationBar .dropdown-submenu.pull-left>.dropdown-menu {
     left: -100%;
     margin-left: 10px;
     -webkit-border-radius: 6px 0 6px 6px;
@@ -141,6 +169,64 @@ img{
     border-radius: 6px 0 6px 6px;
 }
 
+/* Fixing the problem caused by wiki */
+
+/*
+#NavigationBar .mynav{
+	float: right;
+}*/
+
+#NavigationBar .mydrop{
+	background-color: #b4daf0;
+	border-color: transparent;
+}
+
+#NavigationBar .lactoshieldband{
+	color: #686968;
+}
+
+#NavigationBar .lactoshieldband:hover{
+	color: #50929c;
+}
+
+#NavigationBar .dropdown-menu > li > a:hover,
+#NavigationBar .dropdown-menu > li > a:focus {
+  color: #50929c;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#NavigationBar .dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #686968;
+  white-space: nowrap;
+}
+
+#NavigationBar .navbar-inverse .navbar-collapse,
+#NavigationBar .navbar-inverse .navbar-form {
+  border-color: transparent;
+}
+
+#NavigationBar .navbar-inverse .navbar-nav > li > a {
+  color: #686968;
+}
+
+#NavigationBar .wikialign{
+	top: 16px;
+	border-color: transparent;
+	background-color: #b4daf0;
+}
+
+#NavigationBar .navbar-inverse .navbar-nav > .open > a,
+#NavigationBar .navbar-inverse .navbar-nav > .open > a:hover,
+#NavigationBar .navbar-inverse .navbar-nav > .open > a:focus {
+  color: #50929c;
+  background-color: #add6ef;
+}
 /* Default Contact Section*/
 
 .contactinfo1{
@@ -210,6 +296,10 @@ img{
     width: 100%;
 }
 
+/* Contact Section */
+.socialicon{
+	color: #333333;
+}
 
 /* PROJECT */
 
