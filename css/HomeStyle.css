@@ -21,21 +21,26 @@ h2{
 h3{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight: bold;
-	text-align: center;
+	text-align: center;	
 	color: #000000;	
 }
 
 a{
     font-size: large;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-decoration-style: none;
 }
 
 p{  
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: large;
-	line-height: 2em;
+	line-height: 3em;
 	text-align: center;
-	color: #000000;
+	color: #686968;
+}
+
+strong{
+	color: #50929c;
 }
 
 hr{
@@ -50,6 +55,24 @@ hr{
     border-width: 1px;
 }
 
+.hyperlinks{
+	color: #50929c;
+	text-decoration: none;
+}
+
+
+.hyperlinks:hover{
+	text-decoration: none;
+	color: #b4daf0;
+}
+
+.hyperlinks:focus{
+	text-decoration: none;
+}
+
+.hyperlinks:visited{
+	text-decoration: none;
+}
 
 /* #8c8c8c */
 .mainline{ 
@@ -98,12 +121,52 @@ footer{
 	font-size: large;
 	line-height: 3em;
 	text-align: justify;
-	color: #000000;
+	color: #686968;
 	list-style-type: none;
 }
 
 .imagecenter{
 	text-align: center;
+}
+
+.size1{
+	width: 100%;
+}
+
+.size2{
+	width: 90%;
+}
+
+.size3{
+	width: 80%;
+}
+
+.size4{
+	width: 70%;
+}
+
+.size5{
+	width: 60%;
+}
+
+.size6{
+	width: 50%;
+}
+
+.color1{
+	color: #b4daf0; /* light blue*/
+}
+
+.color2{
+	color: #686968; /* grey */
+}
+
+.color3{
+	color: #50929c; /* green */
+}
+
+.color4{
+	color: #000000; /* black */
 }
 
 /* Default Navigation Bar */
@@ -128,7 +191,7 @@ footer{
   border-radius: 0;
   min-height: 101%;
   color: #648799;
-  background-color: #add6ef;
+  background-color: #686868;
   border-color: transparent;
   border-left-width: 1px;
 }
@@ -177,12 +240,12 @@ footer{
 }*/
 
 #NavigationBar .mydrop{
-	background-color: #b4daf0;
+	background-color: #686968;
 	border-color: transparent;
 }
 
 #NavigationBar .lactoshieldband{
-	color: #686968;
+	color: #b4daf0;
 }
 
 #NavigationBar .lactoshieldband:hover{
@@ -202,7 +265,7 @@ footer{
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #686968;
+  color: #b4daf0;
   white-space: nowrap;
 }
 
@@ -212,21 +275,35 @@ footer{
 }
 
 #NavigationBar .navbar-inverse .navbar-nav > li > a {
-  color: #686968;
+  color: #b4daf0;
 }
 
 #NavigationBar .wikialign{
 	top: 16px;
 	border-color: transparent;
-	background-color: #b4daf0;
+	background-color: #686968;
 }
 
 #NavigationBar .navbar-inverse .navbar-nav > .open > a,
 #NavigationBar .navbar-inverse .navbar-nav > .open > a:hover,
 #NavigationBar .navbar-inverse .navbar-nav > .open > a:focus {
   color: #50929c;
-  background-color: #add6ef;
+  background-color: #505152;
 }
+
+/* Sponsors Section */
+
+#biolabs{
+    position: relative;
+    bottom: 10px;
+}
+
+#idt{
+	position: relative;
+	top: 10px;
+}
+
+
 /* Default Contact Section*/
 
 .contactinfo1{

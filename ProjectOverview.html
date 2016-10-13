@@ -22,7 +22,7 @@
 <header>
 <!-- Section : Navigation Bar -->
 <section id=NavigationBar>
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="navbar navbar-inverse navbar-fixed-top wikialign" role="navigation">
     <div class="container-fluid navbarcenter">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -31,7 +31,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="Home.html">LACTOSHIELD</a>
+            <a class="navbar-brand lactoshieldband" href="Home.html">LACTOSHIELD</a>
         </div>
         <div class="collapse navbar-collapse">
         <!--
@@ -39,14 +39,14 @@
                 <li><a href="https://github.com/fontenele/bootstrap-navbar-dropdowns" target="_blank">GitHub Project</a></li>
             </ul>
         -->    
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav mynav">
                 
                 <!--<li><a href="#"><span><i class="fa fa-home" aria-hidden="true"></i></span> Home</a></li>--><!-- class="active" -->
                 
                 <li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="fa fa-briefcase" aria-hidden="true"></i></span> Project<b class="caret"></b></a>
-                    <ul class="dropdown-menu multi-level">
-                        <li><a href="#projectoverview">Overview</a></li>
+                    <ul class="dropdown-menu multi-level mydrop">
+                        <li><a href="ProjectOverview.html">Overview</a></li>
                         <li><a href="ProjectAntimicrobialPeptides.html">Anti-Microbial Peptide</a></li>
                         <!--
                         <li class="dropdown-submenu">
@@ -58,7 +58,7 @@
                         </li>
                         -->
                         <li><a href="ProjectTemperature.html">Temperature sensitive activation</a></li>
-                        <li><a href="#">Sporulation</a></li>
+                        <li><a href="ProjectSporulation.html">Sporulation</a></li>
                         <li><a href="ProjectDelivery.html">Delivery System</a></li>
                         <li><a href="ProjectInterlabs.html">Interlab Study</a></li>
                         <li><a href="ProjectNotebook.html">Notebook</a></li>
@@ -67,8 +67,8 @@
 
                 <li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="fa fa-book" aria-hidden="true"></i></span> Human Practices<b class="caret"></b></a>
-                    <ul class="dropdown-menu multi-level">
-                        <li><a href="#">Overview</a></li>
+                    <ul class="dropdown-menu multi-level mydrop">
+                        <li><a href="HpOverview.html">Overview</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Analysis</a>
                             <ul class="dropdown-menu">
@@ -76,6 +76,7 @@
                                 <li><a href="HpRuralAnalysis.html">Rural</a></li>
                             </ul>    
                         </li>
+                        <!--
                         <li class="dropdown-submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Education</a>
                             <ul class="dropdown-menu">
@@ -92,21 +93,36 @@
                                 <li><a href="HpSymposium.html">Symposium</a></li>
                             </ul>    
                         </li>
+                        -->
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Education and Engagement</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="HpSchools.html">Overview</a></li>                            
+                                <li><a href="HpSchools.html">Schools</a></li>
+                                <li><a href="HpColleges.html">College</a></li>
+                                <li><a href="HpWorkshops.html">Workshops</a></li>                            
+                                <li><a href="HpVillageBooth.html">Village Booth</a></li>
+                                <li><a href="UrbanSuperMarket.html">Urban Super Market</a></li>
+                                <li><a href="HpSymposium.html">Symposium</a></li>
+                            </ul>    
+                        </li>
+
                         <li class="dropdown-submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Integrated Human Practices &nbsp;</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Scholar</a></li>
+                                <li><a href="HpIntergratedOverview.html">Overview</a></li>                            
+                                <li><a href="HpScholar.html">Scholar</a></li>
                                 <li><a href="HpIndustry.html">Industries</a></li>
-                                <li><a href="#">Guidelines</a></li>
-                                <li><a href="#">Commercialization</a></li>
+                                <li><a href="HpGuidelines">Guidelines</a></li>
+                                <li><a href="HpCommercialization.html">Commercialization</a></li>
                             </ul>    
                         </li>
                         <li><a href="#">Entrepreunership</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Analysis</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Reduction in cost</a></li>
-                                <li><a href="#">Support from Industries</a></li>
+                                <li><a href="#HpCost.html">Reduction in cost</a></li>
+                                <li><a href="#HpSupport.html">Support from Industries</a></li>
                             </ul>    
                         </li>                        
                     </ul>
@@ -114,24 +130,26 @@
 
                 <li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="fa fa-cogs" aria-hidden="true"></i></span> Team<b class="caret"></b></a>
-                    <ul class="dropdown-menu multi-level">
+                    <ul class="dropdown-menu multi-level mydrop">
                         <li><a href="AttributionsTeamMembers.html">Members</a></li>
                         <li><a href="Attributions.html">Attributions</a></li>
                     </ul>
                 </li>
 
+                <!--<li><a href="#"><span><i class="fa fa-cogs" aria-hidden="true"></i></span> Attributions</a></li>-->
+
                 <li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="fa fa-users" aria-hidden="true"></i></span> Collaboration<b class="caret"></b></a>
-                    <ul class="dropdown-menu multi-level">
+                    <ul class="dropdown-menu multi-level mydrop">
                         <li><a href="CollaborationMeetUp.html">Indian iGEM meet up</a></li>
-                        <li><a href="#">Surveys</a></li>
-                        <li><a href="#">Lab</a></li>
+                        <li><a href="Surveys.html">Surveys</a></li>
+                        <li><a href="Lab.html">Lab</a></li>
                     </ul>
                 </li>
 
                 <li><a href="Safety.html"><span><i class="fa fa-plus" aria-hidden="true"></i></span> Safety</a></li>
 
-                <li><a href="#"><span><i class="fa fa-check" aria-hidden="true"></i></span> Results</a></li>
+                <li><a href="Results.html"><span><i class="fa fa-check" aria-hidden="true"></i></span> Results</a></li>
 
             </ul>
         </div><!--/.nav-collapse -->
@@ -149,7 +167,7 @@
 <h1>Overview</h1>
 </div>
 </div>
-<hr>
+<hr class="mainline">
 <div class="row">
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <p class="parajustify">
@@ -176,7 +194,7 @@ We have developed a novel system that produces anti microbial peptides to prolon
     <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Their peptide was effective against Gram-positive bacteria including Methicillin Resistant Staphylococcus aureus. </li>
     <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;It was moderately effective against Gram-negative bacteria. </li>
     <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;It had low haemolytic activity and very low toxicity towards human cells.</li>
-    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;Their peptide attacked the bacterial cell membrane by integrating itself into the membrane and causes membrane depolarization.<a href=""> Antimicrobial Peptides</a>
+    <li><span><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;Their peptide attacked the bacterial cell membrane by integrating itself into the membrane and causes membrane depolarization.<a href="ProjectAntimicrobialPeptides.html" class="hyperlinks"> Antimicrobial Peptides</a>
     </li>
 </ul>
 </div>
@@ -189,14 +207,14 @@ Lactoshield is designed to produce the AMPs upon activation by heat, which is pr
 </div>
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <p class="parajustify">
-A pR promoter with a mutant cI inhibits gene expression below 42 0C. Another part, an RNA thermometer isolated from Bradyrhizobium japonicum can be used for temperature sensitive post-transcriptional regulation. This part too, initiates translation at 42 0C.<a href="">Temperature Sensitive Activation</a>    
+A pR promoter with a mutant cI inhibits gene expression below 42 0C. Another part, an RNA thermometer isolated from Bradyrhizobium japonicum can be used for temperature sensitive post-transcriptional regulation. This part too, initiates translation at 42 0C.<a href="ProjectTemperature.html" class="hyperlinks">Temperature Sensitive Activation</a>    
 </p >
 </div>
 </div>
 <div class="row">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 <p>
-For delivering the peptide the team took inspiration from 2012 iGEM Team Groningen. <a href="">Delivery System</a>     
+For delivering the peptide the team took inspiration from 2012 iGEM Team Groningen. <a href="ProjectDelivery.html" class="hyperlinks">Delivery System</a>     
 </p>
 </div>
 </div>
